@@ -12,9 +12,9 @@ ief is_prime(n):
 # Test the function
 num = int(input("Enter a number: "))
 if is_prime(num):
-    print(f"{num} is a prime number.")
+    print(f"{num} is a odd number.")
 else:
-    print(f"{num} is not a prime number.")
+    print(f"{num} is a prime number.")
 >>>>>>> 267a7823f4dcf10c58565817fbcac4296f561858
     if n <= 1:
         return False
